@@ -1,0 +1,168 @@
+.hero-section {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.sec-1 {
+  margin-bottom: 0.5em; 
+  color: #49FA9E;
+}
+
+.sec-2 {
+  margin-bottom: 0.2em; 
+  font-size: 2em;
+}
+
+.sec-3 {
+  margin-bottom: 1.5em; 
+  font-size: 1.75em;
+  color: #BBBFBD;
+}
+
+.sec-4 {
+  color: #BBBFBD;
+  font-size: 1.25em; /*0.9*/
+  margin-bottom: 2em;
+}
+
+button {
+  background: #222;
+  color: #49FA9E;
+  border: 1px solid #49FA9E;
+  padding: 8px 16px;
+  border-radius: 0.2em;
+}
+
+button:hover {
+  background: #49FA9E;
+  color: #222;
+}
+
+.main {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+h4 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+/*---------Projects----------------*/
+
+body {
+    /*background-color: #B3E5FC;*/
+    background-color: #222;
+    border-radius: 10px;
+    padding-top: 120px;
+}
+
+.projects {
+  background-color: #222;
+}
+
+.card {
+    width: 400px;  important!!! 
+    /*border: none;*/
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 10px 20px 5px #000;
+    border: 1px solid #000;
+}
+
+.stats {
+    background: #f2f5f8 !important;
+    color: #000 !important
+}
+
+.articles {
+    font-size: 10px;
+    color: #a1aab9
+}
+
+.number1 {
+    font-weight: 500
+}
+
+.followers {
+    font-size: 10px;
+    color: #a1aab9
+}
+
+.number2 {
+    font-weight: 500
+}
+
+.rating {
+    font-size: 10px;
+    color: #a1aab9
+}
+
+.number3 {
+    font-weight: 500
+}
+
+
+/*conatct form*/
+
+/*body {
+  background-color: #222;
+}*/
+
+.contact-main {
+  background-color: #fff;
+}
+
+#contact-form a {
+  background-color: #39db59;
+  border: none;
+}
+
+.contact-button {
+  background-color: #39db59;
+  color: #fff;
+}
+
+/*end of contact form*/
+
+/*skills*/
+
+h3 {
+  font-size: 1.125rem;
+}
+
+#skills {
+  /*color: #49FA9E;*/
+  background-color: #fff;
+}
+
+.progress {
+  height:  5px;
+}
+
+/*end of skills*/
+
+/*footer*/
+
+.footer {
+  height: 50px;
+  text-align: center;
+}
+
+/*end of footer*/
+
+@media (max-width: 990px) {
+  body {
+    padding-top: 150px;
+  }
+  .card {
+    width: auto;
+  }
+}

@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <title>Hello, world!</title>
+
+    <style type="text/css">
+      
+      .bg-light {
+        background-color: #222 !important;
+      }
+
+      .logo {
+        color: white;
+        padding: 3px 9px;
+        background-color: purple;
+      }
+
+      .navbar-light .navbar-brand {
+        color: #fff !important;
+        /*font-family: 'Lobster', cursive;*/
+        font-size: 2rem;
+      }
+
+      .navbar-nav li a {
+        margin: 0px 15px;
+        color: #04cfb5 !important;
+      }
+
+      .navbar-nav li a:hover {
+        background-color: #49FA9E;
+        color: white !important;
+        border-radius: .25rem;
+      }
+
+      .navbar-toggler {
+        border: 2px solid #fff !important;
+      }
+
+    
+
+    </style>
+
+
+  </head>
+  <body>
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <!-- <h3 href="#" class="border border-warning rounded-circle logo">R</h3> -->
+    <a class="navbar-brand border-success" href="#">Raviteja</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mt-sm-2">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects-main">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-form">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="main">
+  <div class="hero-section">
+    <div class="sec-1">Hi, my name is</div>
+    <div class="sec-2">Raviteja</div>
+    <div class="sec-3">I build things for the web</div>
+    <div class="sec-4"> I'm a software engineer graduated from Vnrvjiet,Hyderabad.<br> I like to work as Web Developer </div>
+    <div>
+      <button onclick="location.href='file:///E:/OneDrive/Documents/Portfolio-Ratnakar/navbar.html#contact-form'"><!-- <a href="#contact-form"> -->Get In Touch<!-- </a> --></button>
+    </div>
+  </div>
+ </div>
+</div>
+
+
+<!---------------- skills ------------------------>
+
+<div id="skills" class="py-5">
+  <div>
+    <h1 class="mb-5 mt-5 text-center">Skills</h1>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <h3 class="progress-title">React JS</h3>
+            <div class="progress my-3">
+                <div class="progress-bar" style="width:70%;background:#10d513;">
+                    <div class="progress-value">65%</div>
+                </div>
+            </div>
+            <h3 class="progress-title">HTML</h3>
+            <div class="progress my-3">
+                <div class="progress-bar" style="width:80%;background:#97c513;">
+                    <div class="progress-value">65%</div>
+                </div>
+            </div>
+            <h3 class="progress-title">CSS</h3>
+            <div class="progress my-3">
+                <div class="progress-bar" style="width:65%; background:#f2545b;">
+                    <div class="progress-value">60%</div>
+                </div>
+            </div>
+            <h3 class="progress-title">JavaScript</h3>
+            <div class="progress my-3">
+                <div class="progress-bar" style="width:75%; background:#4286f4;">
+                    <div class="progress-value">75%</div>
+                </div>
+            </div>
+            <h3 class="progress-title">Bootstrap</h3>
+            <div class="progress my-3">
+                <div class="progress-bar" style="width:70%; background:#21ff63;">
+                    <div class="progress-value">30%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<!---------------- end of skills ----------------->
+
+<!---------------- Projects ---------------------->
+
+<div id="projects-main" class="text-center fs-2 text-white mt-5">Projects</div>
+
+<div class='projects'>
+  <div class="container mt-5 py-5">
+  <div class="row g-4">
+    <div class="col">
+      <div class="card p-3 py-5">
+        <div class="d-flex align-items-center">
+            <div class="image"> <img src="images/quiz-img.png" class="rounded" width="155"> </div>
+            <div class="ml-3 w-100 ps-2">
+                <h4 class="mb-0 mt-0 text-success fs-5">Quiz App</h4> <span></span>
+                <div class="p-2 mt-2 bg-primary d-flex justify-content-between rounded text-white stats">
+                    <div class="d-flex flex-column"> <span class="articles">Library</span> <span class="number1">React</span> </div>
+                    <!-- <div class="d-flex flex-column"> <span class="followers">Followers</span> <span class="number2">980</span> </div> -->
+                    <div class="d-flex flex-column"> <span class="rating">Language</span> <span class="number3">JavaScript</span> </div>
+                </div>
+                <div class="button mt-2 d-flex flex-row align-items-center justify-content-between"> <button onclick="location.href='https://github.com/Raviteja180/Quiz-using-functional-components'" class="btn btn-sm btn-outline-primary w-100 mx-2">Code</button> <button onclick="location.href='https://raviteja-quiz-app.netlify.app/'" class="btn btn-sm btn-primary w-100 ml-2">Demo</button> </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card p-3 py-5">
+        <div class="d-flex align-items-center">
+            <div class="image"> <img src="images/todolist-img.png" class="rounded" width="155"> </div>
+            <div class="ml-3 w-100 ps-2">
+                <h4 class="mb-0 mt-0 text-success fs-5">To Do List</h4> <span></span>
+                <div class="p-2 mt-2 bg-primary d-flex justify-content-between rounded text-white stats">
+                    <div class="d-flex flex-column"> <span class="articles">Library</span> <span class="number1">React</span> </div>
+                    <!-- <div class="d-flex flex-column"> <span class="followers">Followers</span> <span class="number2">980</span> </div> -->
+                    <div class="d-flex flex-column"> <span class="rating">Language</span> <span class="number3">JavaScript</span> </div>
+                </div>
+                <div class="button mt-2 d-flex flex-row align-items-center justify-content-between"> <button onclick="location.href='https://github.com/Raviteja180/To-Do-List-using-functional-Components'" class="btn btn-sm btn-outline-primary w-100 mx-2">Code</button> <button onclick="location.href='https://raviteja-todolist.netlify.app/'" class="btn btn-sm btn-primary w-100 ml-2">Demo</button> </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+<!---------------- Contact Form ------------------>
+<div class="contact-main">
+<div class="container my-3" id="contact-form">
+  <div class="row py-5">
+    <div class="text-success my-5 text-center fs-2">Contact Me</div>
+    <div class="col-md-5 part-one">
+      <img src="https://images.unsplash.com/photo-1522199696220-f42195d8b7fb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNyZWF0ZSUyMGFjY291bnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid d-none d-md-block mb-3">
+      <!-- <h1>Create an Account</h1> -->
+    </div>
+    <div class="col-md-7 part-two">
+      <form method="POST" data-netlify="true">
+        <div class="row">
+          <div class="col-lg-12 mb-4">
+            <div class="first-name">
+              <input type="text" class="form-control" placeholder="Full Name">
+            </div>
+          </div>
+          <div class="col-lg-12 mb-4">
+            <div class="email">
+              <input type="text" class="form-control" placeholder="Email Address">
+            </div>
+          </div>
+          <div class="col-lg-12 mb-4">
+            <div class="mb-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+              </div>
+          </div>
+          <div class="col-lg-12">
+            <button type="submit" class="contact-button w-100">
+              Send Message
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-------------------- footer ------------------------>
+
+<div class="footer text-white ">
+  <div>
+    @Raviteja
+  </div>
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
