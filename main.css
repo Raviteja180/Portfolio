@@ -30,7 +30,8 @@
 }
 
 button {
-  background: #222;
+  /* background: #222; */
+  background: teal;
   color: #49FA9E;
   border: 1px solid #49FA9E;
   padding: 8px 16px;
@@ -39,11 +40,12 @@ button {
 
 button:hover {
   background: #49FA9E;
-  color: #222;
+  color: #222;;
 }
 
 .main {
-  background: #222;
+  /* background: #222; */
+  background: teal;
   display: flex;
   justify-content: center;
   color: #fff;
@@ -59,17 +61,24 @@ h4 {
 
 body {
     /*background-color: #B3E5FC;*/
-    background-color: #222;
+    /* background-color: #222; */
+    background-color: teal;
     border-radius: 10px;
     padding-top: 120px;
 }
 
 .projects {
-  background-color: #222;
+  /* background-color: #222; */
+  background: teal;
 }
 
+#projects-main {
+  background-color: teal;
+}
+
+
 .card {
-    width: 400px;  important!!! 
+    width: 400px; 
     /*border: none;*/
     border-radius: 10px;
     background-color: #fff;
